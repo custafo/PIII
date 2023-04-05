@@ -1,4 +1,6 @@
-public class AtvDozeAssalariado extends AtvDozeEmpregado {
+package AtvDoze;
+
+    public class AtvDozeAssalariado extends AtvDozeEmpregado {
         private double salario;
         
         public AtvDozeAssalariado(String nome, String sobrenome, String CPF, double salario) {

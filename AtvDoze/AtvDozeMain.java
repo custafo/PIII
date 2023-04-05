@@ -1,7 +1,8 @@
+package AtvDoze;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class AtvDozeMain {
     private static ArrayList<Object> listaEmpregados = new ArrayList<Object>();
 
     public static void main(String[] args) {

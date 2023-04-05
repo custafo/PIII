@@ -1,3 +1,4 @@
+package AtvDoze;
 public class AtvDozeComissionado extends AtvDozeEmpregado {
         private double totalVendas;
         private double taxaComissao;

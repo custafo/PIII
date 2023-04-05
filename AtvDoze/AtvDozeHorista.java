@@ -1,3 +1,4 @@
+package AtvDoze;
 public class AtvDozeHorista extends AtvDozeEmpregado {
         private double precoHora;
         private double horasTrabalhadas;
