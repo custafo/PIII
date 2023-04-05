@@ -9,4 +9,8 @@ public class AtvDozeAssalariado extends AtvDozeEmpregado {
         public double calcularSalario() {
             return salario;
         }
+
+        public String getSalario() {
+            return null;
+        }
     }
