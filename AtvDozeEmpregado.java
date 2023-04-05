@@ -32,4 +32,8 @@ public class AtvDozeEmpregado {
         public void setCPF(String CPF) {
             this.CPF = CPF;
         }
+
+        public String getNomeCompleto() {
+            return null;
+        }
     }

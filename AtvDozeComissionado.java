@@ -13,4 +13,12 @@ public class AtvDozeComissionado extends AtvDozeEmpregado {
         public double calcularSalario() {
             return totalVendas * taxaComissao;
         }
+
+		public String getTotalVendas() {
+			return null;
+		}
+
+        public String getTaxaComissao() {
+            return null;
+        }
     }

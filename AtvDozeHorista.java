@@ -13,4 +13,12 @@ public class AtvDozeHorista extends AtvDozeEmpregado {
         public double calcularSalario() {
             return precoHora * horasTrabalhadas;
         }
+
+        public String getPrecoHora() {
+            return null;
+        }
+
+        public String getHorasTrabalhadas() {
+            return null;
+        }
     }
