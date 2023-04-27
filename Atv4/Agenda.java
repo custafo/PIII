@@ -1,4 +1,4 @@
-package AtvQuatro;
+package Atv4;
 
 public class Agenda extends Contato{
     private Contato[] contatoslista;

@@ -1,4 +1,4 @@
-package AtvDois;
+package Atv2;
 
 public class Contato {
     private String name;

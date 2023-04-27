@@ -1,4 +1,4 @@
-package AtvUm;
+package Atv1;
 
 import java.util.Scanner;
 public class Bhaskara{

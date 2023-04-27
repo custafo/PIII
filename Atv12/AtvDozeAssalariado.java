@@ -1,4 +1,4 @@
-package AtvDoze;
+package Atv12;
 
     public class AtvDozeAssalariado extends AtvDozeEmpregado {
         private double salario;

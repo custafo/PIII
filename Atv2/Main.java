@@ -1,4 +1,4 @@
-package AtvDois;
+package Atv2;
 
 import java.util.Scanner;
 

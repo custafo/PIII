@@ -1,0 +1,47 @@
+package Atv6;
+
+import java.util.Scanner;
+
+public class circunferencia {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int count = 0;
+        while (count <= 5) {
+            
+            System.out.println("tell me four coordinates respectively to:  x1, y1, x2 and y2 five times");
+            double coordinatex1 = in.nextDouble();
+            double coordinatey1 = in.nextDouble();
+            double coordinatex2 = in.nextDouble();
+            double coordinatey2 = in.nextDouble();
+
+            double second = CalculeR(coordinatex1, coordinatey1, coordinatex2, coordinatey2);
+            double first = First(count, coordinatex1, coordinatey1, coordinatex2, coordinatey2);
+            
+            if (count > 1) {
+                if (second == first) {
+                    System.out.println("It's in the circunfere");
+                }
+                else if (second > first) {
+                    System.out.println("It's bigger than the circunference");
+                }
+                else if (second < first) {
+                    System.out.println("It's smaller than the circunference");
+                }
+            }
+            count++;
+        }
+    }
+
+    public static double CalculeR(double x1, double y1, double x2, double y2) {
+        double r = Math.sqrt((Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2)));
+        return r;
+    }
+
+    public static double First(int count, double x1, double y1, double x2, double y2) {
+        if (count == 1) {
+            double first = CalculeR(x1, y1, x2, y2);
+            return first;
+        }
+        return 0;
+    }
+}

@@ -1,4 +1,4 @@
-package AtvDoze;
+package Atv12;
 import java.util.ArrayList;
 import java.util.Scanner;
 
